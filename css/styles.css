@@ -1,6 +1,7 @@
 body {
     font-family: Roboto, sans-serif;
     background-color: #fff;
+    color: #434455;
 }
 
 a {
@@ -32,14 +33,14 @@ header .logo {
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
-}
-
-.logo span {
     color: #4d5ae5;
 }
 
-.nav-menu a {
+header .logo span {
+    color: #2e2f42;
+}
+
+.nav-item {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -47,12 +48,15 @@ header .logo {
     color: #2e2f42;
 }
 
-.nav-menu a:hover, .nav-menu a:focus {
+.nav-item:hover, .nav-item:focus {
     color: #404bbf;
 }
 
-address a {
+.addr {
     font-style: normal;
+}
+
+.addr-link {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -60,7 +64,7 @@ address a {
     color: #434455;
 }
 
-address a:hover, address a:focus  {
+.addr a:hover, .addr a:focus  {
     color: #404bbf;
 }
 
@@ -84,7 +88,6 @@ address a:hover, address a:focus  {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     background-color: #4d5ae5;
 }
 
