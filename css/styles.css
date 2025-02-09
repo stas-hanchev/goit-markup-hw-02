@@ -72,7 +72,7 @@ header .logo span {
     background-color: #2e2f42;
 }
 
-.hero h1 {
+.hero-title {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
@@ -81,7 +81,7 @@ header .logo span {
     color: #fff;
 }
 
-.hero button {
+.hero-btn {
     font-family: "Roboto", sans-serif;
     color: #fff;
     font-weight: 500;
@@ -91,11 +91,11 @@ header .logo span {
     background-color: #4d5ae5;
 }
 
-.hero button:hover, .hero button:focus {
+.hero-btn, .hero-btn {
     background-color: #404bbf;
 }
 
-.benefits-section h3 {
+.benefits-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -103,7 +103,7 @@ header .logo span {
     color: #2e2f42;
 }
 
-.benefits-section p {
+.benefits-description {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -111,7 +111,25 @@ header .logo span {
     color: #434455;
 }
 
-.team-section h3 {
+.team-section {
+    background-color: #F4F4FD;
+}
+
+.team-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+}
+
+.team-item{
+    background-color: #FFFFFF;
+}
+
+.member-subtitle {
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
@@ -120,7 +138,7 @@ header .logo span {
     color: #2e2f42;
 }
 
-.team-section p {
+.member-description {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
